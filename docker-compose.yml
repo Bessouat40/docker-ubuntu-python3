@@ -1,0 +1,6 @@
+version: "3"
+services:
+  frontend:
+    build: 
+      dockerfile: ./Dockerfile
+    command: 'python3 test.py'
